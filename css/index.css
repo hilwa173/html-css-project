@@ -1,3 +1,45 @@
-.test {
+html,
+body{
   background-color: aliceblue;
+margin: 0% 20% 0% 20%;
+}
+.headline-container{
+  font-family: "Inter",sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  text-align: center;
+  color: #172b4d;
+}
+.headline-containe-pos {
+  color: #36b37e;
+}
+.headline-containe-para{
+  font-family: "Inter",sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  color: #0b0a0a;
+}
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu{
+  width: 351px;
+  height: 181px;
+  border-radius: 8px;
+  text-align: right;
+  list-style-type: none;
+  
+}
+.menu-list{
+  font-family: "Inter",sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 137%;
+  color: #3a4a42;
+
 }
